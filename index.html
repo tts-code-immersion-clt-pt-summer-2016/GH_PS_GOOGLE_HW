@@ -2,42 +2,49 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>Google</title>
 </head>
 <body>
 	<div class = "container">
-	<div class = "navbar">
-		<ul class="navbar-list">
-			<li>Gmail</li>
-			<li>Images</li>
-<!--			
-			<li><img src="http://3.bp.blogspot.com/-3NAqBu3H9G0/U49ykkWOULI/AAAAAAAACes/mgRUdEP9yws/s1600/Application+icon+android.png"></li>
--->			
-			<li>Google apps</li>
-			<li><button type = "button" class = "sign-in">Sign in</button></li>
-		</ul>
-	</div>
-	<div class = "main">
-		<img src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" alt = "Google Logo">
-		<form>
-			<input type="text" name="search-box">
-			<button type="button" class= "search">Google Search</button>
-			<button type="button" class= "lucky">I'm Feeling Lucky</button>
-		</form>
-	</div>
-	<div class = "footer">
-		<ul class = "footer-left">
-			<li>Advertising</li>
-			<li>Business</li>
-			<li>About</li>
-		</ul>
-		<ul class = "footer-right">
-			<li>Privacy</li>
-			<li>Terms</li>
-			<li>Settings</li>
-		</ul>
-	</div>
+		<div class = "navbar">
+			<ul>
+				<li><a href = "https://www.google.com/gmail/about/">Gmail</a></li>
+				<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=xx6eV6ezAYWqwgSdmqWwCg&ved=0EKouCBYoAQ">Images</a></li>
+	<!--			
+				<li><img src="http://3.bp.blogspot.com/-3NAqBu3H9G0/U49ykkWOULI/AAAAAAAACes/mgRUdEP9yws/s1600/Application+icon+android.png"></li>
+	-->			
+				<li><a href="">Google apps</a></li>
+				<li><button type = "button"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/#identifier">Sign in</a></button></li>
+			</ul>
+		</div>
+		<div class = "main">
+			<img src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" alt = "Google Logo">
+			<form>
+				<input type="text" name="search-box" class = "search-box">
+			</form>
+		</div>	
+		<div class = "buttons">
+			<div class= "search-button">
+				<button type="button">Google Search</button>
+			</div>
+			<div class= "lucky-buttton">
+				<button type="button">I'm Feeling Lucky</button>
+			</div>						
+		</div>
+		<div class = "footer">
+			<span id = "footer-left">
+				<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+				<a href="https://www.google.com/services/?fg=1">Business</a>
+				<a href="https://www.google.com/intl/en/about/">About</a>
+			</span>
+			<span id = "footer-right">
+				<a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+				<a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+				<a href="">Settings</a>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>

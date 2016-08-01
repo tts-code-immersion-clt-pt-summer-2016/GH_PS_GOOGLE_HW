@@ -70,6 +70,28 @@ a:hover{
 	height: 40px;
 }
 
+.buttons{
+	text-align: center;
+}
+
+#btn-search{
+	font-weight: bold;
+	padding: 8px;
+	margin-right: 2px;	
+	color: #757575;
+	background-color: #f2f2f2
+	border-radius: 2px;	
+}
+
+#btn-lucky{
+	font-weight: bold;	
+	padding: 8px;	
+	margin-left: 2px;
+	color: #757575;
+	background-color: #f2f2f2
+	border-radius: 2px;
+}
+
 .footer{
 	display: block;
 	background-color: #f2f2f2;
